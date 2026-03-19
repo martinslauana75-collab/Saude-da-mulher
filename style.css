@@ -1,20 +1,22 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #fff0f5;
+  background: #fff5f8;
   color: #333;
 }
 
+/* TOPO */
 header {
-  background: #e91e63;
+  background: linear-gradient(135deg, #e91e63, #c2185b);
   color: white;
-  padding: 30px;
+  padding: 40px 20px;
   text-align: center;
 }
 
+/* MENU */
 nav {
   background: #f8bbd0;
-  padding: 10px;
+  padding: 12px;
   text-align: center;
 }
 
@@ -23,28 +25,162 @@ nav a {
   text-decoration: none;
   color: #880e4f;
   font-weight: bold;
+  transition: 0.3s;
 }
 
+nav a:hover {
+  color: #c2185b;
+}
+
+/* SEÇÕES */
 section {
   padding: 30px;
-  margin: 20px;
+  margin: 20px auto;
+  max-width: 800px;
   background: white;
-  border-radius: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
+/* TÍTULOS */
 h2 {
   color: #c2185b;
 }
 
-img {
-  width: 250px;
-  border-radius: 10px;
-  margin-top: 10px;
+/* BOTÃO AJUDA */
+.botao-ajuda {
+  display: inline-block;
+  background: #d81b60;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: 0.3s;
 }
 
+.botao-ajuda:hover {
+  background: #ad1457;
+}
+
+/* IMAGEM */
+img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+/* RODAPÉ */
 footer {
   text-align: center;
-  padding: 15px;
+  padding: 20px;
   background: #e91e63;
   color: white;
+  margin-top: 30px;
+}
+
+section {
+  border-left: 5px solid #f8bbd0;
+}
+
+/* CARTILHA */
+#cartilha {
+  text-align: center;
+}
+
+/* ALERTA */
+.alerta {
+  background: #ffe4ec;
+  color: #c2185b;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 600px;
+  font-weight: bold;
+}
+
+/* CONTAINER DOS CARDS */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* CARD INDIVIDUAL */
+.card {
+  background: white;
+  border-left: 5px solid #e91e63;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+/* TÍTULO DO CARD */
+.card h3 {
+  color: #c2185b;
+}
+
+/* TEXTO FINAL */
+.final {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+/* BLOCO GERAL */
+#ajuda-completa {
+  text-align: center;
+}
+
+/* CONTAINER DOS BLOCOS */
+.blocos-ajuda {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* CADA BLOCO */
+.bloco {
+  background: white;
+  border-left: 5px solid #e91e63;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* CONTATOS */
+.contatos {
+  background: #ffe4ec;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 20px auto;
+  font-weight: bold;
+}
+
+/* LISTAS */
+.lista {
+  text-align: left;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+/* REFERÊNCIAS */
+.referencias {
+  margin-top: 20px;
+  font-size: 14px;
+  color: gray;
 }
