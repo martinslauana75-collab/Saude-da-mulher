@@ -9,15 +9,10 @@
 <body>
 
 <header>
+  <img src="logo.jpg" alt="Logo da Universidade" style="width:150px; margin-bottom:30px;">
   <h1>Saúde da Mulher</h1>
   <p>Cuidado, informação e apoio em cada passo.</p>
 </header>
-
-<section>
-  <a href="tel:180" class="botao-ajuda">
-    🚨 Preciso de ajuda agora (Ligue 180)
-  </a>
-</section>
 
 <nav>
   <a href="#inicio">Início</a>
@@ -45,13 +40,6 @@
 </section>
 
 
-<section id="formulario">
-  <h2>Formulário</h2>
-  <p>Preencha o formulário abaixo:</p>
-
-  <iframe src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__p4N2N1UMVo5TFo1QVJKNUlOUTVCMk1WTVo0RTUwOS4u" width="100%" height="350"></iframe>
-</section>
-
 <section id="cartilha">
   <h2>Cartilha de ISTs</h2>
 
@@ -64,86 +52,209 @@
     ⚠️ Muitas ISTs não apresentam sintomas. Fazer exames regularmente é essencial.
   </div>
 
-  <div class="cards">
+<div class="accordion">
 
-    <div class="card">
-      <h3>HPV</h3>
-      <p><strong>O que é:</strong> Vírus que pode causar verrugas e câncer do colo do útero.</p>
-      <p><strong>Sintomas:</strong> Muitas vezes não apresenta sinais.</p>
-      <p><strong>Prevenção:</strong> Vacina e uso de preservativo.</p>
-      <p><strong>Tratamento:</strong> Acompanhamento médico.</p>
-    </div>
-
-    <div class="card">
-      <h3>Sífilis</h3>
-      <p><strong>O que é:</strong> Infecção bacteriana.</p>
-      <p><strong>Sintomas:</strong> Feridas, manchas pelo corpo.</p>
-      <p><strong>Prevenção:</strong> Uso de preservativo.</p>
-      <p><strong>Tratamento:</strong> Antibióticos.</p>
-    </div>
-
-    <div class="card">
-      <h3>Herpes</h3>
-      <p><strong>O que é:</strong> Vírus que causa feridas na boca ou região genital.</p>
-      <p><strong>Sintomas:</strong> Bolhas e dor local.</p>
-      <p><strong>Prevenção:</strong> Evitar contato durante crises.</p>
-      <p><strong>Tratamento:</strong> Controle dos sintomas.</p>
-    </div>
-
-    <div class="card">
-      <h3>HIV</h3>
-      <p><strong>O que é:</strong> Vírus que afeta o sistema imunológico.</p>
-      <p><strong>Sintomas:</strong> Pode ser silencioso por anos.</p>
-      <p><strong>Prevenção:</strong> Preservativo e testagem.</p>
-      <p><strong>Tratamento:</strong> Medicamentos controlam a doença.</p>
-    </div>
-
-    <div class="card">
-      <h3>Gonorreia</h3>
-      <p><strong>O que é:</strong> Infecção bacteriana.</p>
-      <p><strong>Sintomas:</strong> Dor, secreção.</p>
-      <p><strong>Prevenção:</strong> Uso de preservativo.</p>
-      <p><strong>Tratamento:</strong> Antibióticos.</p>
-    </div>
-
+  <!-- HPV -->
+  <button class="accordion-btn">
+    <img src="hpv.jpg" alt="HPV">
+    <span>HPV</span>
+  </button>
+  <div class="accordion-content">
+    <p><strong>O que é:</strong> O HPV (Papilomavírus Humano) é a Infecção Sexualmente Transmissível (IST) mais comum no mundo, afetando pele e mucosas. Pode causar verrugas genitais ou evoluir para cânceres (colo do útero, ânus, pênis, garganta).</p>
+    <p><strong>Sintomas:</strong>  Frequentemente é assintomático ("vírus silencioso"). Quando aparecem, as lesões podem ser verrugas (baixo risco) ou lesões pré-cancerosas (alto risco, como tipos 16 e 18).</p>
+    <p><strong>Prevenção:</strong> Vacina HPV, uso de preservativo; Exame Papanicolau.</p>
+    <p><strong>Tratamento:</strong> Não há cura para o vírus em si, mas as lesões e verrugas têm tratamento (crioterapia, ácidos, cauterização).</p>
   </div>
+
+  <!-- Sífilis -->
+  <button class="accordion-btn">
+    <img src="sifilis.jpg" alt="Sífilis">
+    <span>Sífilis</span>
+  </button>
+  <div class="accordion-content">
+    <p><strong>O que é:</strong> Infecção bacteriana,  causada pela bactéria Treponema pallidum, transmitida por relação sexual desprotegida ou da mãe para o feto (sífilis congênita).</p>
+    <p><strong>Sintomas:</strong> Na fase primária, surge uma ferida indolor (cancro duro) no local da infecção, que desaparece sozinha, mas a bactéria continua no corpo. Na fase secundária, ocorrem manchas no corpo, mãos e pés, febre e mal-estar.</p>
+    <p><strong>Prevenção:</strong> Uso correto de camisinha masculina ou feminina e realização de pré-natal para gestantes.</p>
+    <p><strong>Tratamento:</strong> A sífilis tem cura, sendo o tratamento principal feito com injeções de Penicilina Benzatina (Benzetacil).</p>
+  </div>
+
+  <!-- HIV -->
+  <button class="accordion-btn">
+    <img src="hiv.jpg" alt="HIV">
+    <span>HIV</span>
+  </button>
+  <div class="accordion-content">
+    <p><strong>O que é:</strong> HIV significa Vírus da Imunodeficiência Humana.
+Ele ataca o sistema imunológico, principalmente os linfócitos CD4, que são como “soldados” de defesa do corpo.
+
+Se não tratado, pode evoluir para a AIDS (Síndrome da Imunodeficiência Adquirida). </p>
+    <p><strong>Sintomas:</strong> O HIV tem fases:
+
+Fase inicial (2 a 4 semanas após infecção):
+Febre
+Dor de garganta
+Ínguas (linfonodos aumentados)
+Cansaço
+Manchas no corpo
+
+(Parece uma gripe forte)
+
+Fase assintomática:
+Pode durar anos sem sintomas
+O vírus continua ativo no corpo
+Fase avançada (AIDS):
+Perda de peso
+Infecções frequentes
+Fraqueza intensa
+Doenças oportunistas.</p>
+    <p><strong>Prevenção:</strong> Uso de preservativos, uso de medicamentos preventivos (PrEP/PEP), não compartilhamento de perfurocortantes e tratamento de gestantes.</p>
+    <p><strong>Tratamento:</strong> O tratamento antirretroviral (TARV) é gratuito no Brasil e impede que o HIV enfraqueça o sistema imunológico.</p>
+  </div>
+
+  <!-- Herpes -->
+  <button class="accordion-btn">
+  <img src="herpes.jpg" alt="Herpes">
+  <span>Herpes</span>
+</button>
+<div class="accordion-content">
+  <p><strong>O que é:</strong> Herpes é uma infecção causada pelo vírus HSV (Herpes Simplex Virus). Existem dois tipos principais:
+
+HSV-1 → mais comum na boca (herpes labial)
+HSV-2 → mais comum na região genital
+
+Depois que entra no corpo, o vírus não vai embora. Ele fica “adormecido” e pode reaparecer em momentos de queda de imunidade, estresse ou cansaço.</p>
+  <p><strong>Sintomas:</strong> Nem todo mundo sente, mas quando aparecem, costumam seguir um padrão:
+
+Herpes labial:
+Ardência ou coceira antes da lesão
+Pequenas bolhas agrupadas (tipo “feridinhas”)
+Dor local
+Casquinhas após alguns dias
+Herpes genital:
+Bolhas dolorosas na região íntima
+Feridas abertas após o rompimento das bolhas
+Dor ao urinar
+Coceira ou queimação
+Pode vir com febre e mal-estar na primeira crise</p>
+  <p><strong>Transmissão:</strong> A transmissão é simples e traiçoeira:
+
+Contato direto com a lesão (beijo, sexo oral, vaginal ou anal)
+Mesmo sem ferida visível, ainda pode transmitir (menos comum, mas possível)
+Compartilhar objetos (como copos ou talheres, no caso labial)</p>
+  <p><strong>Prevenção:</strong> Evitar contato direto com lesões
+Usar preservativo (reduz risco, mas não elimina totalmente)
+Não compartilhar objetos pessoais
+Evitar beijo ou sexo durante crises
+Manter imunidade boa (sono, alimentação, menos estresse)</p>
+  <p><strong>Tratamento:</strong> Não existe cura definitiva, mas existe controle.
+
+Antivirais como Aciclovir, Valaciclovir e Famciclovir
+Pomadas ou comprimidos (depende do caso)
+Tratamento precoce diminui duração e intensidade
+Em casos frequentes, pode usar medicação contínua (profilaxia)</p>
+</div>
+
+<!-- Clamídia -->
+<button class="accordion-btn">
+  <img src="clamidia.jpg" alt="Clamídia">
+  <span>Clamídia</span>
+</button>
+<div class="accordion-content">
+  <p><strong>O que é:</strong> É uma infecção sexualmente transmissível causada pela bactéria Chlamydia trachomatis.
+Afeta principalmente os órgãos genitais, mas também pode atingir garganta e olhos.</p>
+  <p><strong>Sintomas:</strong> Quando aparecem, podem ser:
+
+Em mulheres:
+Corrimento vaginal anormal;
+Dor ao urinar;
+Dor durante a relação;
+Sangramento fora do período menstrual;
+
+Em homens:
+Secreção pelo pênis;
+Ardência ao urinar;
+Dor ou inchaço nos testículos;
+
+Em ambos:
+Dor pélvica;
+Infecção na garganta (após sexo oral);
+Inflamação nos olhos (casos mais raros);</p>
+  <p><strong>Transmissão:</strong> A transmissão acontece por:
+
+Relação sexual sem proteção (vaginal, anal ou oral).
+Contato com secreções infectadas.
+Mãe para o bebê durante o parto.</p>
+  <p><strong>Prevenção:</strong> Uso de preservativo em todas as relações.
+Testagem regular (principalmente se tiver mais de um parceiro).
+Evitar relações durante tratamento de IST.
+Comunicação com o parceiro</p>
+  <p><strong>Tratamento:</strong> Tem cura.
+
+Antibióticos como Azitromicina ou Doxiciclina.
+Tratamento geralmente rápido (dose única ou alguns dias).
+O parceiro também precisa tratar, mesmo sem sintomas.</p>
+</div>
+
+</div>
 
   <p class="final">
     Procure uma unidade de saúde para diagnóstico e tratamento. Cuidar de si é um ato de coragem.
   </p>
 </section>
 
-<section id="ajuda-completa">
 
+<section id="ajuda">
   <h2>Onde buscar ajuda</h2>
 
-  <div class="blocos-ajuda">
+  <div class="ajuda-container">
 
-    <div class="bloco">
-      <h3>🏥 Unidade Básica de Saúde (UBS)</h3>
-      <p>Atendimento gratuito, exames e orientação.</p>
+    <div class="ajuda-card">
+      <span class="bolinha verde"></span>
+      <h3>UBS</h3>
+      <p>Unidades Básicas de Saúde</p>
+      <p>Atendimento e orientação perto de você.</p>
     </div>
 
-    <div class="bloco">
-      <h3>🚺 Delegacia da Mulher</h3>
-      <p>Apoio em situações de violência e orientação legal.</p>
+    <div class="ajuda-card">
+      <span class="bolinha amarelo"></span>
+      <h3>CEDIN</h3>
+      <p>Centro Especializado em Doenças Infecciosas</p>
+      <p>Endereço: EQS 508/509 – Asa Sul, Brasília</p>
+      <p>Telefone: (61) 3449-4778</p>
+      <p>Endereço: EQS 508/509 – Asa Sul, Brasília</p>
+
+<a href="https://www.google.com/maps/search/?api=1&query=CEDIN+Brasilia"
+   target="_blank" class="btn-mapa">
+   Ver no mapa
+</a>
     </div>
 
-    <div class="bloco">
-      <h3>💊 Hospitais Públicos</h3>
-      <p>Atendimento em casos urgentes.</p>
+    <div class="ajuda-card">
+      <span class="bolinha rosa"></span>
+      <h3>CTA</h3>
+      <p>Centro de Testagem e Aconselhamento</p>
+      <p>Atendimento gratuito e sigiloso</p>
+      <a href="https://www.google.com/maps/search/?api=1&query=CTA+Brasilia"
+   target="_blank" class="btn-mapa">
+   Ver no mapa
+</a>
+    </div>
+
+    <div class="ajuda-card">
+      <span class="bolinha verde"></span>
+      <h3>CESMU</h3>
+      <p>Centro Especializado em Saúde da Mulher</p>
+      <p>Atendimento especializado</p>
+      <a href="https://www.google.com/maps/search/?api=1&query=CESMU+Brasilia"
+   target="_blank" class="btn-mapa">
+   Ver no mapa
+</a>
     </div>
 
   </div>
+</section>
 
-  <h2>Contatos importantes</h2>
-
-  <div class="contatos">
-    <p>📞 180 – Central de Atendimento à Mulher</p>
-    <p>📞 192 – SAMU</p>
-    <p>📞 190 – Polícia</p>
-  </div>
-
+<section>
   <h2>Quando procurar ajuda?</h2>
 
   <ul class="lista">
@@ -152,7 +263,9 @@
     <li>Relação sem proteção</li>
     <li>Qualquer situação de violência</li>
   </ul>
+</section>
 
+<section>
   <h2>Seus direitos</h2>
 
   <ul class="lista">
@@ -160,7 +273,9 @@
     <li>Direito ao sigilo</li>
     <li>Acolhimento sem julgamento</li>
   </ul>
+</section>
 
+<section>
   <h2>Passo a passo</h2>
 
   <ol class="lista">
@@ -169,52 +284,96 @@
     <li>Realize exames</li>
     <li>Inicie o tratamento corretamente</li>
   </ol>
+</section>
 
+<section>
   <h2>Referências</h2>
 
   <p class="referencias">
     Ministério da Saúde • SUS • Organização Mundial da Saúde
   </p>
-
 </section>
 
-<section id="ists">
-  <h2>Doenças Sexualmente Transmissíveis (ISTs)</h2>
-
-  <p><strong>Sífilis:</strong> Feridas no corpo e risco grave se não tratada.</p>
-
-  <p><strong>HIV:</strong> Afeta a imunidade, mas tem tratamento e controle.</p>
-
-  <p><strong>HPV:</strong> Pode causar verrugas e câncer do colo do útero.</p>
-
-  <p><strong>Gonorreia:</strong> Dor, secreção e risco de infertilidade.</p>
-</section>
-
-<section id="ajuda">
-  <h2>Onde buscar ajuda</h2>
-  <ul>
-    <li>Disque 180 – Central de Atendimento à Mulher</li>
-    <li>UBS mais próxima</li>
-    <li>Delegacia da Mulher</li>
-    <li>Hospitais públicos</li>
-  </ul>
 </section>
 
 <section id="equipe">
   <h2>Nossa Equipe</h2>
-  <img src="equipe.jpg" alt="Equipe da saúde">
-  <p>Equipe de estudantes dedicadas ao cuidado e orientação da saúde da mulher.</p>
+
+  <p>
+    Projeto desenvolvido por estudantes da área da saúde, com atuação prática
+    em ambiente de acolhimento e orientação à mulher.
+  </p>
+
+  <!-- MEMBROS -->
+  <h3>Membros da Equipe</h3>
+
+  <div class="grid-equipe">
+
+    <div class="membro">
+      <img src="pessoa1.jpg" alt="">
+      <p>Neidy </p>
+    </div>
+
+    <div class="membro">
+      <img src="pessoa2.jpg" alt="">
+      <p>Luana </p>
+    </div>
+
+    <div class="membro">
+      <img src="pessoa3.jpg" alt="">
+      <p>Eduardo </p>
+    </div>
+
+    <div class="membro">
+      <img src="pessoa4.jpg" alt="">
+      <p>Maria Clara </p>
+    </div>
+
+    <div class="membro">
+      <img src="pessoa5.jpg" alt="">
+      <p>Nariane </p>
+    </div>
+
+    <div class="membro">
+      <img src="pessoa6.jpg" alt="">
+      <p>Nathalia </p>
+    </div>
+
+    <div class="membro">
+      <img src="pessoa7.jpg" alt="">
+      <p>Lauana </p>
+    </div>
+
+  </div>
+
+  <!-- DELEGACIA -->
+  <h3>Atuação na Delegacia</h3>
+
+  <div class="galeria-equipe">
+
+    <div class="foto-item">
+      <img src="delegacia1.jpg" alt="">
+        </div>
+
+    <div class="foto-item">
+      <img src="delegacia2.jpg" alt="">
+    </div>
+    
+
+  </div>
+
 </section>
 
 <section id="contato">
   <h2>Contato</h2>
   <p>Email: l38303592@gmail.com</p>
-  <p>Instagram: lauana_martinsss</p>
 </section>
 
 <footer>
   <p>© 2026 - Projeto Saúde da Mulher</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
